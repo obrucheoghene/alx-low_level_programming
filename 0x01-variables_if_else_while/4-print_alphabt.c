@@ -11,7 +11,7 @@ int main(void)
 {
 	char letters[] = "abcdfghijklmnoprstuvwxyz";
 	int i = 0;
-	int l = 26;
+	int l = 24;
 
 	for (; i < l; i++)
 	{
