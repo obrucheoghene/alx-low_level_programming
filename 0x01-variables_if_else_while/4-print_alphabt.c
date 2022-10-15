@@ -9,7 +9,7 @@
  */
 int main(void)
 {
-	char letters[] = "abcdefghijklmnopqrstuvwxyz";
+	char letters[] = "abcdfghijklmnoprstuvwxyz";
 	int i = 0;
 	int l = 26;
 
