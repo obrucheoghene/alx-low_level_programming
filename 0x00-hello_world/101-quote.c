@@ -1,11 +1,8 @@
 #include <stdio.h>
 /**
   * main - Entry level
-  * 
-  * Description : Print character
-  * 
-  * Return : Always (0)
-  *
+  * Description: Print character
+  * Return: Always (1)
   */
 int main(void)
 {
