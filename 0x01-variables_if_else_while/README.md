@@ -5,3 +5,4 @@
 
 
 5-print_numbers.c : prints all single digit numbers of base 10 starting from 0
+ 6-print_numberz.c: does same thing with 5-print_numberss.c ecept we don't use char
