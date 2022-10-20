@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include "main.h"
 /**
  * main - entry level
  * Description: Print _putchar
@@ -6,15 +7,6 @@
  */
 int main(void)
 {
-	char str[] = "_putchar";
-	int i;
-
-	/* strings are arrays that ends with \0*/
-	for (i = 0; str[i] != '\0'; i++)
-	{
-		putchar(str[i]);
-	}
-	/*print newline*/
-	putchar('\n');
+	_putchar();
 	return (0);
 }
