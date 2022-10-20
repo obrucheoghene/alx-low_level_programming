@@ -5,9 +5,8 @@
  * Description: Print _putchar
  * Return: Always (0) success
  */
-void _putchar(void)
+void _putchar(char str[])
 {
-	char str[] = "_putchar";
 	int i;
 
 	/* strings are arrays that ends with \0*/

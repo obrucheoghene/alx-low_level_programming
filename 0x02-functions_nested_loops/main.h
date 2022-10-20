@@ -1,7 +1,7 @@
 #ifndef MAIN_H
 #define MAIN_H
 
-void _putchar(void);
+void _putchar(char str[]);
 
 #endif
 
