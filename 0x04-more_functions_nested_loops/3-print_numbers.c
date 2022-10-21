@@ -2,8 +2,8 @@
 #include "main.h"
 
 /**
-* fun - product 
-* Return: product
+* print_numbers - print all number
+* Return: no value
 */
 void print_numbers(void)
 {
