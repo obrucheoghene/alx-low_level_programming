@@ -2,10 +2,10 @@
 #include "main.h"
 
 /**
-* print_numbers - print all number
-* Return: no value
+* print_most_numbers - print most number
+* Return: void
 */
-void print_numbers(void)
+void print_most_numbers(void)
 {
 	int i;
 
