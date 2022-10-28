@@ -1,3 +1,4 @@
+#include <stdio.h>
 #include "main.h"
 
 /**
@@ -7,9 +8,6 @@
       */
 int main(void)
 {
-	    char *str;
-
-	        str = "going to shool";
-		    puts_half(str);
-		        return (0);
+	more_numbers();
+	return (0);
 }

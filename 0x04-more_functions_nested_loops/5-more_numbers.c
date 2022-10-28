@@ -12,7 +12,9 @@ void more_numbers(void)
 
 	for (t = 0; t < 10; t++)
 	{
-		for (n = 0; n <= 14; n++)
+		for (n = 0; n <= 9; n++)
+			_putchar(n + '0');
+		for (n = 'A'; n < 'F'; n++)
 			_putchar(n + '0');
 		_putchar('\n');
 	}
