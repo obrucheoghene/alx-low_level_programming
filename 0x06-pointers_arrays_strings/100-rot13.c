@@ -21,7 +21,11 @@ char *rot13(char *s)
 			else
 				s[i] = s[i] + 13;
 		}
-		else if (s[i] >= 97 && s[i] <= 122)
+	}
+
+	for (i = 0; s[i] != '\n'; i++)
+	{
+		if (s[i] >= 97 && s[i] <= 122)
 		{
 			if (s[i] >= 110)
 				s[i] = s[i] - 13;
@@ -29,6 +33,7 @@ char *rot13(char *s)
 				s[i] = s[i] + 13;
 		}
 	}
+ 
 	return (s);
 }
 
