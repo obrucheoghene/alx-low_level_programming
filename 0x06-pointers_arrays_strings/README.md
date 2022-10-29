@@ -7,3 +7,4 @@
 6-cap_string.c: capitalizes all words of a string.
 7-leet.c: encodes a string into 1337.
 102-magic.c: a[2] to 98
+100-rot13.c : encodes string to rot13
