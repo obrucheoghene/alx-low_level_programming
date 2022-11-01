@@ -1,12 +1,20 @@
 #include "main.h"
 #include "stdio.h"
 
+/**
+ * _strspn - gets the length of a prefix substring
+ *
+ * @s: string pointer
+ * @accept: accept string
+ *
+ * Return: number
+ */
 
 unsigned int _strspn(char *s, char *accept)
 {
 	unsigned int l = 0;
-	int i;
-	do{
+
+	do {
 		if (_strchr(s, *accept))
 		{
 			l++;
