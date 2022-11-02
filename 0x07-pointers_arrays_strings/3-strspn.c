@@ -18,7 +18,9 @@ unsigned int _strspn(char *s, char *accept)
 		if (_strchr(s, *accept))
 		{
 			l++;
+			continue;
 		}
+		break;
 	} while (*accept++);
 
 	return (l);
