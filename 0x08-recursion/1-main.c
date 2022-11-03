@@ -7,8 +7,7 @@
       */
 int main(void)
 {
-	 char s[] = "\nColton Walker";
-	     _print_rev_recursion(s);
-	        return (0);
+	_print_rev_recursion("\nColton Walker");
+	return (0);
 }
 
