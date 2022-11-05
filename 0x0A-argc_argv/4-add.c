@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <stdlib.h>
+#include <ctype.h>
 
 /**
  * main - entry level
@@ -22,7 +22,7 @@ int main(int argc, char *argv[])
 	}
 	while (i < argc)
 	{
-		if (atoi(argv[i]))
+		if (isdigit(*argv[i]))
 			sum += atoi(argv[i]);
 		else
 		{
