@@ -22,7 +22,6 @@ void print_strings(const char *separator, const unsigned int n, ...)
 	for (i = 0; i < n; i++)
 	{
 		str_arg =  va_arg(ap, char *);
-		
 		if (str_arg)
 			printf("%s", str_arg);
 		else
