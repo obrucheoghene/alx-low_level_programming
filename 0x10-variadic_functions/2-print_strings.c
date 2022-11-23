@@ -23,7 +23,7 @@ void print_strings(const char *separator, const unsigned int n, ...)
 	{
 		str_arg =  va_arg(ap, char *);
 		/* If separator is NULL, don’t print it */
-		if (str_arg)
+		if (str_arg != NULL)
 			printf("%s", str_arg);
 		else
 			printf("%s", "nil");
