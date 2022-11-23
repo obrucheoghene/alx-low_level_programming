@@ -22,13 +22,13 @@ void print_strings(const char *separator, const unsigned int n, ...)
 	for (i = 0; i < n; i++)
 	{
 		str_arg =  va_arg(ap, char *);
-		/* If separator is NULL, don’t print it */
-		if (str_arg != NULL)
+		
+		if (str_arg)
 			printf("%s", str_arg);
 		else
 			printf("%s", "nil");
 
-		if (separator && i < n - 1)
+		if (separator && i < n - 1 && strcmp(str_arg, "") != 0)
 			printf("%s", separator);
 	}
 	printf("\n");
