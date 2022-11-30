@@ -37,5 +37,5 @@ int delete_nodeint_at_index(listint_t **head, unsigned int index);
 
 /*advance*/
 listint_t *reverse_listint(listint_t **head);
-listint_t *reverse_recursion(listint_t *head, listint_t *rev_head);
+size_t print_listint_safe(const listint_t *head)
 #endif
