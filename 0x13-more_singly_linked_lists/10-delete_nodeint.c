@@ -23,7 +23,7 @@ int delete_nodeint_at_index(listint_t **head, unsigned int index)
 		i++;
 	}
 	if (i == index && node_at_index != NULL)
-	{	
+	{
 		/*if index is 0*/
 		if (index == 0)
 			*head = node_at_index->next;
