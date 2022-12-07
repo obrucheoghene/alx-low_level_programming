@@ -5,7 +5,7 @@
  * @filename: filename
  * @text_content: text content
  *
- * Return 1 or -1
+ * Return: success 1 or -1 if failed
  */
 
 int create_file(const char *filename, char *text_content)
