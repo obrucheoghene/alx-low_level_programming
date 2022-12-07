@@ -30,7 +30,7 @@ ssize_t read_textfile(const char *filename, size_t letters)
 	if (rlen == -1)
 		return (0);
 
-	wlen = write(STDOUT_FILENO, buf, letters);
+	wlen = write(STDOUT_FILENO, buf, rlen);
 
 	if (wlen == -1)
 		return (0);
