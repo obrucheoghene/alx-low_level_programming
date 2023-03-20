@@ -30,3 +30,31 @@ Size - Static library is included in the executable file where as only the addre
     Dynamic Library extensions
     windows `.dll` (Dynamic link library)
     linus `.so` (shared object)
+
+### Create Dynamic
+
+- Generate the object files (.o) from source files(.c) with `-fPIC` flag to make the code position independent
+
+```sh
+gcc -c -fPIC *.c
+```
+
+- Put the generate object files (.o) together to create the library. the `-o` flag
+
+```sh
+gcc -shared -o liball.so *.o
+```
+
+- To verify that you did it and have the right functions as dynamic symbols you can use
+
+```sh
+nm -D liball.so
+```
+
+$LD_LIBRARY_PATH
+
+- It is an env variable that stores the path to dynamic libraries.
+
+`ldd` ldd cmd is used to display the necessary dynamic lib used by certain binary file.
+`nm` `nm -C -D path_to_a_dynamic_lib` is so powerful that it will list all the symbols contained by this dynamic lib, including functions (T) and variables.
+`ldconfig` creates the necessary links and cache to the most recent shared libraries found in the directories specified on the command line
