@@ -3,7 +3,7 @@
 /**
  * _putchar - print a character on the screen
  * @c: character
- * Return: Nothing
+ * Return: Always 0
  */
 int _putchar(char c)
 {
