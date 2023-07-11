@@ -1,0 +1,6 @@
+{
+    "files.associations": {
+        "*.ejs": "html",
+        "search_algos.h": "c"
+    }
+}
