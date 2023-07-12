@@ -1,6 +1,8 @@
 {
     "files.associations": {
         "*.ejs": "html",
-        "search_algos.h": "c"
+        "search_algos.h": "c",
+        "__tuple": "c",
+        "array": "c"
     }
 }
